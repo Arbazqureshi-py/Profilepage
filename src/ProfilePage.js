@@ -9,7 +9,7 @@ export default function ProfilePage() {
         <div className="mb-4">
           <img
             className="h-48 w-48 object-cover rounded-full border-2 border-gray-200"
-            src="/profile.jpeg"
+            src={`${process.env.PUBLIC_URL}/profile.png`}
             alt="Profile"
           />
         </div>
@@ -32,7 +32,7 @@ export default function ProfilePage() {
             </ul>
           </div>
           <div className="text-left">
-            <h3 className="text-lg font-medium text-gray-900"><a href="/webDevResume.pdf" alt="Resume" target='_blank'>Resume</a></h3>
+            <h3 className="text-lg font-medium text-gray-900"><a href={`${process.env.PUBLIC_URL}/webDevResume.pdf`} alt="Resume" target='_blank'>Resume</a></h3>
           </div>
         </div>
       </div>
