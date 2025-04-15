@@ -9,7 +9,7 @@ export default function ProfilePage() {
         <div className="mb-4">
           <img
             className="h-48 w-48 object-cover rounded-full border-2 border-gray-200"
-            src={`${process.env.PUBLIC_URL}/profile.png`}
+            src={`${process.env.PUBLIC_URL}/profile.jpeg`}
             alt="Profile"
           />
         </div>
